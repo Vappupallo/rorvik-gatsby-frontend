@@ -68,7 +68,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 
