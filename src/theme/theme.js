@@ -1,6 +1,4 @@
-
-
-const theme = {
+export const theme = {
     color: {
         brandBlue: "#0024AA",
         illustrationBlue: "#001666",
